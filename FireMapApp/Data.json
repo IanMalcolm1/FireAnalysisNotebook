@@ -1,0 +1,2258 @@
+{
+    "pages": {
+        "page_1": {
+            "id": "page_1",
+            "mode": "FIT_WINDOW",
+            "type": "NORMAL",
+            "layout": {
+                "LARGE": "layout_2"
+            },
+            "isDefault": true,
+            "isVisible": true,
+            "label": "Page",
+            "header": false,
+            "footer": false
+        }
+    },
+    "layouts": {
+        "layout_2": {
+            "type": "FIXED",
+            "content": {
+                "0": {
+                    "type": "WIDGET",
+                    "widgetId": "widget_1",
+                    "bbox": {
+                        "left": "0.0%",
+                        "right": "0.0%",
+                        "top": "6.0%",
+                        "bottom": "-0.4%",
+                        "width": "100.0%",
+                        "height": "94.4%"
+                    },
+                    "setting": {
+                        "autoProps": {
+                            "left": true,
+                            "right": false,
+                            "top": true,
+                            "bottom": false
+                        },
+                        "vCenter": false,
+                        "hCenter": false
+                    }
+                },
+                "1": {
+                    "type": "WIDGET",
+                    "widgetId": "widget_14",
+                    "bbox": {
+                        "left": "0.0%",
+                        "right": "0.0%",
+                        "top": "0.0%",
+                        "bottom": "93.7%",
+                        "width": "100.0%",
+                        "height": "6.3%"
+                    },
+                    "setting": {
+                        "autoProps": {
+                            "right": false,
+                            "left": true,
+                            "top": false,
+                            "bottom": true
+                        }
+                    }
+                }
+            },
+            "order": [
+                "0",
+                "1"
+            ]
+        },
+        "layout_3": {
+            "content": {
+                "8": {
+                    "type": "WIDGET",
+                    "widgetId": "widget_22",
+                    "bbox": {
+                        "left": "78.7%",
+                        "right": "0.0%",
+                        "top": "0.0%",
+                        "bottom": "19.2%",
+                        "width": "20.00%",
+                        "height": "80.8%"
+                    },
+                    "setting": {
+                        "autoProps": {
+                            "right": false,
+                            "left": true,
+                            "top": false,
+                            "bottom": true
+                        },
+                        "vCenter": false,
+                        "hCenter": false
+                    }
+                },
+                "12": {
+                    "type": "WIDGET",
+                    "widgetId": "widget_2",
+                    "bbox": {
+                        "left": "0.0%",
+                        "right": "80.7%",
+                        "top": "0.0%",
+                        "bottom": "65.7%",
+                        "width": "20.00%",
+                        "height": "35.00%"
+                    },
+                    "setting": {
+                        "autoProps": {
+                            "left": false,
+                            "right": true,
+                            "top": false,
+                            "bottom": true
+                        },
+                        "vCenter": false,
+                        "hCenter": false
+                    }
+                },
+                "13": {
+                    "type": "WIDGET",
+                    "widgetId": "widget_24",
+                    "bbox": {
+                        "left": "0.0%",
+                        "right": "80.7%",
+                        "top": "62.2%",
+                        "bottom": "2.1%",
+                        "width": "20.00%",
+                        "height": "35.00%"
+                    },
+                    "setting": {
+                        "autoProps": {
+                            "left": false,
+                            "right": true,
+                            "top": true,
+                            "bottom": false
+                        },
+                        "vCenter": false,
+                        "hCenter": false
+                    }
+                },
+                "14": {
+                    "type": "WIDGET",
+                    "widgetId": "widget_26",
+                    "bbox": {
+                        "left": "0.0%",
+                        "right": "80.0%",
+                        "top": "0.0%",
+                        "bottom": "2.0%",
+                        "width": "21.50%",
+                        "height": "98.0%"
+                    },
+                    "setting": {
+                        "autoProps": {
+                            "left": false,
+                            "right": true,
+                            "top": false,
+                            "bottom": true
+                        },
+                        "vCenter": false,
+                        "hCenter": false
+                    }
+                }
+            },
+            "type": "FIXED",
+            "label": "Map FixedLayout",
+            "order": [
+                "12",
+                "13",
+                "14",
+                "8"
+            ]
+        },
+        "layout_8": {
+            "content": {
+                "0": {
+                    "type": "WIDGET",
+                    "widgetId": "widget_15",
+                    "setting": {
+                        "autoProps": {
+                            "height": "STRETCH"
+                        },
+                        "offsetY": 5
+                    },
+                    "bbox": {
+                        "left": 3,
+                        "width": 6,
+                        "height": "42px"
+                    }
+                }
+            },
+            "type": "ROW",
+            "label": "Default",
+            "setting": {
+                "space": 10,
+                "style": {
+                    "padding": {
+                        "number": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "unit": "px"
+                    }
+                }
+            },
+            "order": [
+                "0"
+            ]
+        },
+        "layout_10": {
+            "content": {
+                "0": {
+                    "type": "WIDGET",
+                    "widgetId": "widget_20",
+                    "bbox": {
+                        "left": "0.0%",
+                        "right": "0.0%",
+                        "top": "92.1%",
+                        "bottom": "0.0%",
+                        "width": "100.0%",
+                        "height": "7.9%"
+                    },
+                    "setting": {
+                        "autoProps": {
+                            "right": false,
+                            "left": true,
+                            "top": true,
+                            "bottom": false
+                        },
+                        "vCenter": false,
+                        "hCenter": false
+                    }
+                },
+                "1": {
+                    "type": "WIDGET",
+                    "widgetId": "widget_21",
+                    "bbox": {
+                        "left": "0.0%",
+                        "right": "0.0%",
+                        "top": "7.3%",
+                        "bottom": "21.6%",
+                        "width": "100.0%",
+                        "height": "71.1%"
+                    },
+                    "setting": {
+                        "autoProps": {
+                            "right": false,
+                            "left": true,
+                            "top": false,
+                            "bottom": true
+                        },
+                        "vCenter": false,
+                        "hCenter": false
+                    }
+                },
+                "2": {
+                    "type": "WIDGET",
+                    "widgetId": "widget_23",
+                    "bbox": {
+                        "left": "0.0%",
+                        "right": "0.0%",
+                        "top": "0.0%",
+                        "bottom": "92.7%",
+                        "width": "100.0%",
+                        "height": "7.3%"
+                    },
+                    "setting": {
+                        "autoProps": {
+                            "left": true,
+                            "right": false,
+                            "top": false,
+                            "bottom": true
+                        },
+                        "vCenter": false,
+                        "hCenter": false
+                    }
+                },
+                "5": {
+                    "type": "WIDGET",
+                    "widgetId": "widget_29",
+                    "bbox": {
+                        "left": "0.0%",
+                        "right": "0.0%",
+                        "top": "78.6%",
+                        "bottom": "7.8%",
+                        "width": "100.0%",
+                        "height": "13.6%"
+                    },
+                    "setting": {
+                        "autoProps": {
+                            "width": "CUSTOM",
+                            "height": {},
+                            "right": false,
+                            "left": true,
+                            "top": true,
+                            "bottom": false
+                        },
+                        "vCenter": false,
+                        "hCenter": false,
+                        "heightMode": "fixed",
+                        "aspectRatio": 0.32
+                    }
+                }
+            },
+            "type": "FIXED",
+            "label": "Default",
+            "order": [
+                "1",
+                "5",
+                "2",
+                "0"
+            ]
+        },
+        "layout_13": {
+            "content": {
+                "0": {
+                    "type": "WIDGET",
+                    "widgetId": "widget_27",
+                    "bbox": {
+                        "left": "-0.1%",
+                        "right": "0.0%",
+                        "top": "4.7%",
+                        "bottom": "0.0%",
+                        "width": "100.1%",
+                        "height": "95.3%"
+                    },
+                    "setting": {
+                        "autoProps": {
+                            "right": true,
+                            "left": false,
+                            "top": true,
+                            "bottom": false
+                        },
+                        "vCenter": false,
+                        "hCenter": false
+                    }
+                },
+                "1": {
+                    "type": "WIDGET",
+                    "widgetId": "widget_28",
+                    "bbox": {
+                        "left": "-0.2%",
+                        "right": "0.1%",
+                        "top": "0.0%",
+                        "bottom": "95.2%",
+                        "width": "100.1%",
+                        "height": "4.8%"
+                    },
+                    "setting": {
+                        "autoProps": {
+                            "right": true,
+                            "left": false,
+                            "top": false,
+                            "bottom": true
+                        },
+                        "vCenter": false,
+                        "hCenter": false
+                    }
+                }
+            },
+            "type": "FIXED",
+            "label": "First",
+            "order": [
+                "0",
+                "1"
+            ]
+        },
+        "layout_14": {
+            "content": {},
+            "type": "FIXED",
+            "label": "Second"
+        }
+    },
+    "exbVersion": "1.14.0",
+    "mainSizeMode": "LARGE",
+    "theme": "themes/default/",
+    "forBuilderAttributes": {
+        "lockLayout": false
+    },
+    "template": "blankfullscreengrid",
+    "widgets": {
+        "widget_1": {
+            "uri": "widgets/arcgis/arcgis-map/",
+            "version": "1.14.0",
+            "label": "Map",
+            "config": {
+                "toolConfig": {
+                    "canZoom": true,
+                    "canHome": true,
+                    "canSearch": false,
+                    "canNavigation": true,
+                    "canLocate": false
+                },
+                "isUseCustomMapState": true,
+                "layoutIndex": 1,
+                "initialMapState": {
+                    "viewPoint": {
+                        "rotation": 0,
+                        "scale": 577790.554289,
+                        "targetGeometry": {
+                            "spatialReference": {
+                                "latestWkid": 3857,
+                                "wkid": 102100
+                            },
+                            "x": -13046292.606371464,
+                            "y": 4035943.685347342
+                        }
+                    },
+                    "extent": {
+                        "spatialReference": {
+                            "latestWkid": 3857,
+                            "wkid": 102100
+                        },
+                        "xmin": -13130908.396683186,
+                        "ymin": 3986030.3058771025,
+                        "xmax": -12961676.816059742,
+                        "ymax": 4085857.0648175813
+                    },
+                    "rotation": 0,
+                    "viewType": "2d"
+                },
+                "initialMapDataSourceID": "dataSource_5"
+            },
+            "id": "widget_1",
+            "layouts": {
+                "MapFixedLayout": {
+                    "LARGE": "layout_3"
+                }
+            },
+            "useDataSources": [
+                {
+                    "dataSourceId": "dataSource_5",
+                    "mainDataSourceId": "dataSource_5"
+                }
+            ],
+            "style": {
+                "borderRadius": null,
+                "border": {
+                    "color": null,
+                    "type": "solid",
+                    "width": "2px"
+                }
+            }
+        },
+        "widget_2": {
+            "uri": "widgets/common/chart/",
+            "version": "1.14.0",
+            "label": "Perimeter Pie Chart",
+            "config": {
+                "tools": {
+                    "cursorEnable": true
+                },
+                "template": "pie",
+                "webChart": {
+                    "version": "7.3.1",
+                    "id": "pie",
+                    "type": "chart",
+                    "dataSource": {
+                        "query": {
+                            "outStatistics": [
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Woody_Wet",
+                                    "outStatisticFieldName": "Woody_Wet"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Shrb_Scrb",
+                                    "outStatisticFieldName": "Shrb_Scrb"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Mixed_Frst",
+                                    "outStatisticFieldName": "Mixed_Frst"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Herbaceous",
+                                    "outStatisticFieldName": "Herbaceous"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Hay_Pastre",
+                                    "outStatisticFieldName": "Hay_Pastre"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Evergreen",
+                                    "outStatisticFieldName": "Evergreen"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Dev_Open",
+                                    "outStatisticFieldName": "Dev_Open"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Emerge_Wet",
+                                    "outStatisticFieldName": "Emerge_Wet"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Dev_Medium",
+                                    "outStatisticFieldName": "Dev_Medium"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Dev_Low",
+                                    "outStatisticFieldName": "Dev_Low"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Dev_High",
+                                    "outStatisticFieldName": "Dev_High"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Deciduous",
+                                    "outStatisticFieldName": "Deciduous"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Crops",
+                                    "outStatisticFieldName": "Crops"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Barren",
+                                    "outStatisticFieldName": "Barren"
+                                }
+                            ],
+                            "orderByFields": [
+                                "name ASC"
+                            ]
+                        }
+                    },
+                    "sortLabelsBy": "originalValue",
+                    "series": [
+                        {
+                            "type": "pieSeries",
+                            "colorType": "singleColor",
+                            "id": "value",
+                            "name": "Sum of Value",
+                            "x": "name",
+                            "y": "value",
+                            "innerRadius": 0,
+                            "startAngle": 0,
+                            "endAngle": 360,
+                            "displayNumericValueOnDataLabel": false,
+                            "displayPercentageOnDataLabel": true,
+                            "displayNumericValueOnTooltip": true,
+                            "displayPercentageOnTooltip": true,
+                            "dataLabelsOffset": 0,
+                            "sliceGrouping": {
+                                "sliceId": "__other-slice__",
+                                "percentageThreshold": 0,
+                                "label": "Other",
+                                "fillSymbol": {
+                                    "type": "esriSFS",
+                                    "style": "esriSFSSolid",
+                                    "color": "#D6D6D6",
+                                    "outline": {
+                                        "type": "esriSLS",
+                                        "style": "esriSLSSolid",
+                                        "color": "var(--primary-400)",
+                                        "width": 1
+                                    }
+                                }
+                            },
+                            "numericValueFormat": {
+                                "type": "number",
+                                "intlOptions": {
+                                    "style": "decimal",
+                                    "useGrouping": true,
+                                    "minimumFractionDigits": 0,
+                                    "maximumFractionDigits": 3
+                                }
+                            },
+                            "percentValueFormat": {
+                                "type": "number",
+                                "intlOptions": {
+                                    "style": "percent",
+                                    "notation": "standard",
+                                    "minimumFractionDigits": 0,
+                                    "maximumFractionDigits": 2
+                                }
+                            },
+                            "fillSymbol": {
+                                "type": "esriSFS",
+                                "style": "esriSFSSolid",
+                                "color": "#D6D6D6",
+                                "outline": {
+                                    "type": "esriSLS",
+                                    "style": "esriSLSSolid",
+                                    "color": "var(--primary-400)",
+                                    "width": 1
+                                }
+                            },
+                            "dataLabels": {
+                                "type": "chartText",
+                                "visible": true,
+                                "content": {
+                                    "type": "esriTS",
+                                    "color": "var(--dark-600)",
+                                    "font": {
+                                        "family": "Avenir Next",
+                                        "size": 10,
+                                        "style": "normal",
+                                        "weight": "normal",
+                                        "decoration": "none"
+                                    },
+                                    "horizontalAlignment": "center",
+                                    "verticalAlignment": "top"
+                                }
+                            },
+                            "dataTooltipVisible": true,
+                            "slices": [
+                                {
+                                    "sliceId": "Woody_Wet",
+                                    "label": "Woody Wetlands",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#c8e6f8",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Shrb_Scrb",
+                                    "label": "Shrub/Scrub",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#dcca8f",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Mixed_Frst",
+                                    "label": "Mixed Forest",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#d4e7b0",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Herbaceous",
+                                    "label": "Grassland/Herbaceous",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#fde9aa",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Hay_Pastre",
+                                    "label": "Pasture/Hay",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#fbf65d",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Evergreen",
+                                    "label": "Evergreen Forest",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#38814e",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Dev_Open",
+                                    "label": "Developed, Open Space",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#e8d1d1",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Emerge_Wet",
+                                    "label": "Emergent Herbaceous Wetlands",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#5E8FD0",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Dev_Medium",
+                                    "label": "Developed, Medium Intensity",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#ff0000",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Dev_Low",
+                                    "label": "Developed, Low Intensity",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#e29e8c",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Dev_High",
+                                    "label": "Developed, High Intensity",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#b50000",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Deciduous",
+                                    "label": "Deciduous Forest",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#85c77e",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Crops",
+                                    "label": "Cultivated Crops",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#ca9146",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Barren",
+                                    "label": "Barren Land",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#968972",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-400)",
+                                            "width": 1
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "background": "var(--primary-200)",
+                    "title": {
+                        "type": "chartText",
+                        "visible": true,
+                        "content": {
+                            "type": "esriTS",
+                            "color": "var(--black)",
+                            "font": {
+                                "family": "Avenir Next",
+                                "size": 18,
+                                "style": "normal",
+                                "weight": "bold",
+                                "decoration": "none"
+                            },
+                            "horizontalAlignment": "center",
+                            "text": "Land Burned Perimeters"
+                        }
+                    },
+                    "footer": {
+                        "type": "chartText",
+                        "visible": true,
+                        "content": {
+                            "type": "esriTS",
+                            "color": "var(--dark-800)",
+                            "font": {
+                                "family": "Avenir Next",
+                                "size": 12,
+                                "style": "italic",
+                                "weight": "normal",
+                                "decoration": "none"
+                            },
+                            "horizontalAlignment": "center",
+                            "text": "Filtered by map extent"
+                        }
+                    },
+                    "legend": {
+                        "type": "chartLegend",
+                        "visible": false,
+                        "title": {
+                            "type": "chartText",
+                            "visible": true,
+                            "content": {
+                                "type": "esriTS",
+                                "color": "var(--dark-800)",
+                                "font": {
+                                    "family": "Avenir Next",
+                                    "size": 20,
+                                    "style": "normal",
+                                    "weight": "normal",
+                                    "decoration": "none"
+                                },
+                                "horizontalAlignment": "center",
+                                "text": ""
+                            }
+                        },
+                        "body": {
+                            "type": "esriTS",
+                            "color": "var(--dark-800)",
+                            "font": {
+                                "family": "Avenir Next",
+                                "size": 12,
+                                "style": "normal",
+                                "weight": "normal",
+                                "decoration": "none"
+                            },
+                            "horizontalAlignment": "center",
+                            "text": ""
+                        },
+                        "position": "right",
+                        "labelMaxWidth": 200
+                    }
+                }
+            },
+            "id": "widget_2",
+            "useDataSources": [
+                {
+                    "dataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                    "mainDataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                    "rootDataSourceId": "dataSource_5",
+                    "fields": [
+                        "Woody_Wet",
+                        "Shrb_Scrb",
+                        "Mixed_Frst",
+                        "Herbaceous",
+                        "Hay_Pastre",
+                        "Evergreen",
+                        "Dev_Open",
+                        "Emerge_Wet",
+                        "Dev_Medium",
+                        "Dev_Low",
+                        "Dev_High",
+                        "Deciduous",
+                        "Crops",
+                        "Barren"
+                    ]
+                }
+            ],
+            "outputDataSources": [
+                "widget_2_ouput"
+            ]
+        },
+        "widget_14": {
+            "uri": "widgets/layout/row/",
+            "version": "1.14.0",
+            "label": "Row",
+            "config": {
+                "space": 10,
+                "style": {
+                    "padding": {
+                        "number": [
+                            10
+                        ],
+                        "unit": "px"
+                    }
+                }
+            },
+            "id": "widget_14",
+            "layouts": {
+                "DEFAULT": {
+                    "LARGE": "layout_8"
+                }
+            },
+            "style": {
+                "background": {
+                    "color": "var(--primary-300)",
+                    "fillType": "fill"
+                }
+            }
+        },
+        "widget_15": {
+            "uri": "widgets/common/text/",
+            "version": "1.14.0",
+            "label": "Text 3",
+            "config": {
+                "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 24px;\">2024 Redlands Area Wildland Fire Map</strong></p>",
+                "style": {
+                    "verticalAlign": "start",
+                    "wrap": true
+                }
+            },
+            "id": "widget_15"
+        },
+        "widget_20": {
+            "uri": "widgets/arcgis/swipe/",
+            "version": "1.14.0",
+            "label": "Swipe",
+            "config": {
+                "swipeStyle": "SIMPLE_HORIZONTAL",
+                "swipeMode": "SWIPE_BETWEEN_LAYERS_OF_ONE_MAP",
+                "swipeMapViewList": {
+                    "widget_1-dataSource_5": {
+                        "leadingLayersId": [
+                            "widget_1-dataSource_5-19046dc0f3a-layer-7",
+                            "widget_1-dataSource_5-19046dc03c1-layer-6",
+                            "widget_1-dataSource_5-19046dbfcba-layer-5",
+                            "widget_1-dataSource_5-19037fafbfe-layer-2",
+                            "widget_1-dataSource_5-1904757c66a-layer-8"
+                        ],
+                        "trailingLayersId": []
+                    }
+                },
+                "styleConfig": {
+                    "toggleLayerVisibility": false,
+                    "isAllowDeactivateLayers": false,
+                    "defaultActivation": false,
+                    "detailsVisibility": false,
+                    "dividerColor": "var(--primary-500)",
+                    "handleColor": "var(--primary-100)",
+                    "sliderPosition": {
+                        "distance": 75,
+                        "unit": "%"
+                    }
+                }
+            },
+            "id": "widget_20",
+            "useMapWidgetIds": [
+                "widget_1"
+            ],
+            "style": {
+                "borderRadius": null,
+                "border": {
+                    "color": null,
+                    "type": "solid",
+                    "width": "2px"
+                },
+                "boxShadow": {
+                    "presetStyle": "shadow-none"
+                }
+            }
+        },
+        "widget_21": {
+            "uri": "widgets/arcgis/map-layers/",
+            "version": "1.14.0",
+            "label": "Map Layers",
+            "config": {
+                "useMapWidget": true,
+                "useTickBoxes": true,
+                "goto": true,
+                "label": false,
+                "opacity": true,
+                "information": true
+            },
+            "id": "widget_21",
+            "useMapWidgetIds": [
+                "widget_1"
+            ],
+            "style": {
+                "borderRadius": null,
+                "border": {
+                    "color": null,
+                    "type": "solid",
+                    "width": "2px"
+                },
+                "boxShadow": {
+                    "presetStyle": "shadow-none"
+                }
+            }
+        },
+        "widget_22": {
+            "uri": "widgets/layout/fixed/",
+            "version": "1.14.0",
+            "label": "Layers Menu",
+            "config": null,
+            "id": "widget_22",
+            "layouts": {
+                "DEFAULT": {
+                    "LARGE": "layout_10"
+                }
+            },
+            "style": {
+                "background": {
+                    "color": "#ffffff",
+                    "fillType": "fill"
+                }
+            }
+        },
+        "widget_23": {
+            "uri": "widgets/common/text/",
+            "version": "1.14.0",
+            "label": "Layers Title",
+            "config": {
+                "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 18px;\">Layers</strong></p>",
+                "style": {
+                    "verticalAlign": "start",
+                    "wrap": true
+                }
+            },
+            "id": "widget_23",
+            "style": {
+                "background": {
+                    "color": "var(--primary-200)",
+                    "fillType": "fill"
+                }
+            }
+        },
+        "widget_24": {
+            "uri": "widgets/common/chart/",
+            "version": "1.14.0",
+            "label": "All NLCD Pie Chart",
+            "config": {
+                "tools": {
+                    "cursorEnable": true
+                },
+                "template": "pie",
+                "webChart": {
+                    "version": "7.3.1",
+                    "id": "pie",
+                    "type": "chart",
+                    "dataSource": {
+                        "query": {
+                            "outStatistics": [
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Barren",
+                                    "outStatisticFieldName": "Barren"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Crops",
+                                    "outStatisticFieldName": "Crops"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Deciduous",
+                                    "outStatisticFieldName": "Deciduous"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Dev_Low",
+                                    "outStatisticFieldName": "Dev_Low"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Dev_High",
+                                    "outStatisticFieldName": "Dev_High"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Dev_Open",
+                                    "outStatisticFieldName": "Dev_Open"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Dev_Medium",
+                                    "outStatisticFieldName": "Dev_Medium"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Emerge_Wet",
+                                    "outStatisticFieldName": "Emerge_Wet"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Evergreen",
+                                    "outStatisticFieldName": "Evergreen"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Hay_Pastre",
+                                    "outStatisticFieldName": "Hay_Pastre"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Herbaceous",
+                                    "outStatisticFieldName": "Herbaceous"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Mixed_Frst",
+                                    "outStatisticFieldName": "Mixed_Frst"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Woody_Wet",
+                                    "outStatisticFieldName": "Woody_Wet"
+                                },
+                                {
+                                    "statisticType": "sum",
+                                    "onStatisticField": "Shrb_Scrb",
+                                    "outStatisticFieldName": "Shrb_Scrb"
+                                }
+                            ],
+                            "orderByFields": [
+                                "name ASC"
+                            ]
+                        }
+                    },
+                    "sortLabelsBy": "originalValue",
+                    "series": [
+                        {
+                            "type": "pieSeries",
+                            "colorType": "singleColor",
+                            "id": "value",
+                            "name": "Sum of Value",
+                            "x": "name",
+                            "y": "value",
+                            "innerRadius": 0,
+                            "startAngle": 0,
+                            "endAngle": 360,
+                            "displayNumericValueOnDataLabel": true,
+                            "displayPercentageOnDataLabel": false,
+                            "displayNumericValueOnTooltip": false,
+                            "displayPercentageOnTooltip": true,
+                            "dataLabelsOffset": 0,
+                            "sliceGrouping": {
+                                "sliceId": "__other-slice__",
+                                "percentageThreshold": 0,
+                                "label": "Other",
+                                "fillSymbol": {
+                                    "type": "esriSFS",
+                                    "style": "esriSFSSolid",
+                                    "color": "#D6D6D6",
+                                    "outline": {
+                                        "type": "esriSLS",
+                                        "style": "esriSLSSolid",
+                                        "color": "var(--primary-500)",
+                                        "width": 1
+                                    }
+                                }
+                            },
+                            "numericValueFormat": {
+                                "type": "number",
+                                "intlOptions": {
+                                    "style": "decimal",
+                                    "useGrouping": true,
+                                    "minimumFractionDigits": 0,
+                                    "maximumFractionDigits": 3
+                                }
+                            },
+                            "percentValueFormat": {
+                                "type": "number",
+                                "intlOptions": {
+                                    "style": "percent",
+                                    "notation": "standard",
+                                    "minimumFractionDigits": 0,
+                                    "maximumFractionDigits": 2
+                                }
+                            },
+                            "fillSymbol": {
+                                "type": "esriSFS",
+                                "style": "esriSFSSolid",
+                                "color": "#D6D6D6",
+                                "outline": {
+                                    "type": "esriSLS",
+                                    "style": "esriSLSSolid",
+                                    "color": "var(--light-100)",
+                                    "width": 1
+                                }
+                            },
+                            "dataLabels": {
+                                "type": "chartText",
+                                "visible": false,
+                                "content": {
+                                    "type": "esriTS",
+                                    "color": "var(--dark-600)",
+                                    "font": {
+                                        "family": "Avenir Next",
+                                        "size": 10,
+                                        "style": "normal",
+                                        "weight": "normal",
+                                        "decoration": "none"
+                                    },
+                                    "horizontalAlignment": "center",
+                                    "verticalAlignment": "top"
+                                }
+                            },
+                            "dataTooltipVisible": true,
+                            "slices": [
+                                {
+                                    "sliceId": "Barren",
+                                    "label": "Barren Land",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#d2cdc0",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Crops",
+                                    "label": "Cultivated Crops",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#ca9146",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Deciduous",
+                                    "label": "Deciduous Forest",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#85c77e",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Dev_Low",
+                                    "label": "Developed Low Intensity",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#e29e8c",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Dev_High",
+                                    "label": "Developed High Intensity",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#b50000",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Dev_Open",
+                                    "label": "Developed Open Space",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#e8d1d1",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Dev_Medium",
+                                    "label": "Developed Medium Intensity",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#ff0000",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Emerge_Wet",
+                                    "label": "Emergent Wetlands",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#64b3d5",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Evergreen",
+                                    "label": "Evergreen Forest",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#38814e",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Hay_Pastre",
+                                    "label": "Pasture/Hay",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#fbf65d",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Herbaceous",
+                                    "label": "Grassland/Herbaceous",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#fde9aa",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Mixed_Frst",
+                                    "label": "Mixed Forest",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#d4e7b0",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Woody_Wet",
+                                    "label": "Woody Wetlands",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#c8e6f8",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                },
+                                {
+                                    "sliceId": "Shrb_Scrb",
+                                    "label": "Shrub/Scrub",
+                                    "fillSymbol": {
+                                        "type": "esriSFS",
+                                        "style": "esriSFSSolid",
+                                        "color": "#dcca8f",
+                                        "outline": {
+                                            "type": "esriSLS",
+                                            "style": "esriSLSSolid",
+                                            "color": "var(--primary-500)",
+                                            "width": 1
+                                        }
+                                    }
+                                }
+                            ],
+                            "alignDataLabels": false,
+                            "optimizeDataLabelsOverlapping": false
+                        }
+                    ],
+                    "background": "var(--primary-200)",
+                    "title": {
+                        "type": "chartText",
+                        "visible": true,
+                        "content": {
+                            "type": "esriTS",
+                            "color": "var(--black)",
+                            "font": {
+                                "family": "Avenir Next",
+                                "size": 18,
+                                "style": "normal",
+                                "weight": "bold",
+                                "decoration": "none"
+                            },
+                            "horizontalAlignment": "center",
+                            "text": "Land Burned All"
+                        }
+                    },
+                    "footer": {
+                        "type": "chartText",
+                        "visible": true,
+                        "content": {
+                            "type": "esriTS",
+                            "color": "var(--dark-800)",
+                            "font": {
+                                "family": "Avenir Next",
+                                "size": 12,
+                                "style": "italic",
+                                "weight": "normal",
+                                "decoration": "none"
+                            },
+                            "horizontalAlignment": "center",
+                            "text": "Not filtered"
+                        }
+                    },
+                    "legend": {
+                        "type": "chartLegend",
+                        "visible": false,
+                        "title": {
+                            "type": "chartText",
+                            "visible": true,
+                            "content": {
+                                "type": "esriTS",
+                                "color": "var(--dark-800)",
+                                "font": {
+                                    "family": "Avenir Next",
+                                    "size": 20,
+                                    "style": "normal",
+                                    "weight": "normal",
+                                    "decoration": "none"
+                                },
+                                "horizontalAlignment": "center",
+                                "text": ""
+                            }
+                        },
+                        "body": {
+                            "type": "esriTS",
+                            "color": "var(--dark-800)",
+                            "font": {
+                                "family": "Avenir Next",
+                                "size": 14,
+                                "style": "normal",
+                                "weight": "normal",
+                                "decoration": "none"
+                            },
+                            "horizontalAlignment": "center",
+                            "text": ""
+                        },
+                        "position": "right",
+                        "labelMaxWidth": 200
+                    }
+                }
+            },
+            "id": "widget_24",
+            "useDataSources": [
+                {
+                    "dataSourceId": "dataSource_5-1904896bf4d-layer-10",
+                    "mainDataSourceId": "dataSource_5-1904896bf4d-layer-10",
+                    "rootDataSourceId": "dataSource_5",
+                    "fields": [
+                        "Barren",
+                        "Crops",
+                        "Deciduous",
+                        "Dev_Low",
+                        "Dev_High",
+                        "Dev_Open",
+                        "Dev_Medium",
+                        "Emerge_Wet",
+                        "Evergreen",
+                        "Hay_Pastre",
+                        "Herbaceous",
+                        "Mixed_Frst",
+                        "Woody_Wet",
+                        "Shrb_Scrb"
+                    ]
+                }
+            ],
+            "outputDataSources": [
+                "widget_24_ouput"
+            ]
+        },
+        "widget_26": {
+            "uri": "widgets/layout/sidebar/",
+            "version": "1.14.0",
+            "label": "Legend Sidebar",
+            "config": {
+                "direction": "HORIZONTAL",
+                "collapseSide": "FIRST",
+                "overlay": true,
+                "size": "254px",
+                "divider": {
+                    "visible": true,
+                    "lineStyle": {
+                        "type": "solid",
+                        "color": "var(--primary-700)",
+                        "width": "2px"
+                    }
+                },
+                "resizable": true,
+                "toggleBtn": {
+                    "visible": true,
+                    "iconSource": 2,
+                    "icon": "LEFT",
+                    "offsetX": 15,
+                    "offsetY": 0,
+                    "position": "CENTER",
+                    "iconSize": 15,
+                    "width": 15,
+                    "height": 60,
+                    "border": {
+                        "type": "solid",
+                        "color": "var(--secondary-900)",
+                        "width": "1px"
+                    },
+                    "color": {
+                        "normal": {
+                            "icon": {
+                                "useTheme": false,
+                                "color": "var(--black)"
+                            },
+                            "bg": {
+                                "useTheme": false,
+                                "color": "var(--primary-100)"
+                            }
+                        },
+                        "hover": {
+                            "bg": {
+                                "useTheme": false,
+                                "color": "var(--primary-200)"
+                            }
+                        }
+                    },
+                    "expandStyle": {
+                        "style": {
+                            "borderRadius": "0 92px 92px 0"
+                        }
+                    },
+                    "collapseStyle": {
+                        "style": {
+                            "borderRadius": "0 92px 92px 0"
+                        }
+                    },
+                    "template": "default"
+                },
+                "defaultState": 1,
+                "firstPanelStyle": {
+                    "background": {
+                        "color": "var(--primary-200)",
+                        "fillType": "fill",
+                        "image": {
+                            "url": ""
+                        }
+                    }
+                },
+                "secondPanelStyle": {
+                    "background": {
+                        "color": "",
+                        "fillType": "fill",
+                        "image": {
+                            "url": ""
+                        }
+                    }
+                }
+            },
+            "id": "widget_26",
+            "layouts": {
+                "FIRST": {
+                    "LARGE": "layout_13"
+                },
+                "SECOND": {
+                    "LARGE": "layout_14"
+                }
+            }
+        },
+        "widget_27": {
+            "uri": "widgets/arcgis/legend/",
+            "version": "1.14.0",
+            "label": "Legend",
+            "config": {
+                "cardStyle": false,
+                "showBaseMap": false,
+                "style": {
+                    "useCustom": true,
+                    "background": {
+                        "color": "var(--primary-200)",
+                        "fillType": "fill"
+                    }
+                }
+            },
+            "id": "widget_27",
+            "useMapWidgetIds": [
+                "widget_1"
+            ]
+        },
+        "widget_28": {
+            "uri": "widgets/common/text/",
+            "version": "1.14.0",
+            "label": "Legend Title",
+            "config": {
+                "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 18px;\">Legend</strong></p>",
+                "style": {
+                    "verticalAlign": "start",
+                    "wrap": true
+                }
+            },
+            "id": "widget_28"
+        },
+        "widget_29": {
+            "uri": "widgets/common/filter/",
+            "version": "1.14.0",
+            "label": "Filter",
+            "config": {
+                "groupByLayer": false,
+                "logicalOperator": "AND",
+                "custom": false,
+                "resetAll": false,
+                "turnOffAll": false,
+                "arrangeType": "BLOCK",
+                "triggerType": "TOGGLE",
+                "omitInternalStyle": false,
+                "filterItems": [
+                    {
+                        "isGroup": true,
+                        "icon": {
+                            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M14 0H0v1.207l5.5 5.5v4.5l2.146 2.147A.5.5 0 0 0 8.5 13V6.707l5.5-5.5zM6.5 6.293 1.207 1h11.586L7.5 6.293v5.5l-1-1z\" clip-rule=\"evenodd\"></path><path fill=\"#000\" d=\"M15 2.793V2h1v1.207l-4.5 4.5V15.5a.5.5 0 0 1-.854.354L10 15.207v-1.414l.5.5v-7z\"></path></svg>",
+                            "properties": {
+                                "color": "",
+                                "filename": "Group filter",
+                                "originalName": "filter-group.svg",
+                                "inlineSvg": true,
+                                "size": 14
+                            }
+                        },
+                        "name": "Remove Prescribed Fires",
+                        "useDataSources": [
+                            {
+                                "dataSourceId": "dataSource_5-19046dc0f3a-layer-7",
+                                "mainDataSourceId": "dataSource_5-19046dc0f3a-layer-7",
+                                "rootDataSourceId": "dataSource_5",
+                                "fields": [
+                                    "IncidentTypeCategory"
+                                ]
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19046dbfcba-layer-5",
+                                "mainDataSourceId": "dataSource_5-19046dbfcba-layer-5",
+                                "rootDataSourceId": "dataSource_5",
+                                "fields": [
+                                    "attr_IncidentTypeCategory"
+                                ]
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19046dc03c1-layer-6",
+                                "mainDataSourceId": "dataSource_5-19046dc03c1-layer-6",
+                                "rootDataSourceId": "dataSource_5",
+                                "fields": [
+                                    "IncidentTypeCategory"
+                                ]
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                                "mainDataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                                "rootDataSourceId": "dataSource_5",
+                                "fields": [
+                                    "TypeCatgry"
+                                ]
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-1904757c66a-layer-8",
+                                "mainDataSourceId": "dataSource_5-1904757c66a-layer-8",
+                                "rootDataSourceId": "dataSource_5",
+                                "fields": [
+                                    "IncidentTypeCategory"
+                                ]
+                            }
+                        ],
+                        "autoApplyWhenWidgetOpen": false,
+                        "collapseFilterExprs": false,
+                        "sqlExprObjForGroup": [
+                            {
+                                "dataSourceId": "dataSource_5-19046dc0f3a-layer-7",
+                                "fieldList": [
+                                    "IncidentTypeCategory"
+                                ],
+                                "logicalOperator": "AND",
+                                "clause": {
+                                    "type": "SINGLE",
+                                    "jimuFieldName": "IncidentTypeCategory",
+                                    "operator": "STRING_OPERATOR_IS",
+                                    "displayType": "NONE",
+                                    "askForValueOptions": null,
+                                    "displayLabel": null,
+                                    "valueOptions": {
+                                        "isValid": true,
+                                        "sourceType": "UNIQUE",
+                                        "inputEditor": "SIMPLE_SELECT",
+                                        "value": [
+                                            {
+                                                "value": "WF",
+                                                "label": "WF"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19046dbfcba-layer-5",
+                                "fieldList": [
+                                    "attr_IncidentTypeCategory"
+                                ],
+                                "logicalOperator": "AND"
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19046dc03c1-layer-6",
+                                "fieldList": [
+                                    "IncidentTypeCategory"
+                                ],
+                                "logicalOperator": "AND"
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                                "fieldList": [
+                                    "TypeCatgry"
+                                ],
+                                "logicalOperator": "AND"
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-1904757c66a-layer-8",
+                                "fieldList": [
+                                    "IncidentTypeCategory"
+                                ],
+                                "logicalOperator": "AND"
+                            }
+                        ]
+                    },
+                    {
+                        "isGroup": true,
+                        "icon": {
+                            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M14 0H0v1.207l5.5 5.5v4.5l2.146 2.147A.5.5 0 0 0 8.5 13V6.707l5.5-5.5zM6.5 6.293 1.207 1h11.586L7.5 6.293v5.5l-1-1z\" clip-rule=\"evenodd\"></path><path fill=\"#000\" d=\"M15 2.793V2h1v1.207l-4.5 4.5V15.5a.5.5 0 0 1-.854.354L10 15.207v-1.414l.5.5v-7z\"></path></svg>",
+                            "properties": {
+                                "color": "",
+                                "filename": "Group filter",
+                                "originalName": "filter-group.svg",
+                                "inlineSvg": true,
+                                "size": 14
+                            }
+                        },
+                        "name": "Remove Wildfires",
+                        "useDataSources": [
+                            {
+                                "dataSourceId": "dataSource_5-1904757c66a-layer-8",
+                                "mainDataSourceId": "dataSource_5-1904757c66a-layer-8",
+                                "rootDataSourceId": "dataSource_5",
+                                "fields": [
+                                    "IncidentTypeCategory"
+                                ]
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19046dc03c1-layer-6",
+                                "mainDataSourceId": "dataSource_5-19046dc03c1-layer-6",
+                                "rootDataSourceId": "dataSource_5",
+                                "fields": [
+                                    "IncidentTypeCategory"
+                                ]
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19046dc0f3a-layer-7",
+                                "mainDataSourceId": "dataSource_5-19046dc0f3a-layer-7",
+                                "rootDataSourceId": "dataSource_5",
+                                "fields": [
+                                    "IncidentTypeCategory"
+                                ]
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19046dbfcba-layer-5",
+                                "mainDataSourceId": "dataSource_5-19046dbfcba-layer-5",
+                                "rootDataSourceId": "dataSource_5",
+                                "fields": [
+                                    "attr_IncidentTypeCategory"
+                                ]
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                                "mainDataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                                "rootDataSourceId": "dataSource_5",
+                                "fields": [
+                                    "TypeCatgry"
+                                ]
+                            }
+                        ],
+                        "autoApplyWhenWidgetOpen": false,
+                        "collapseFilterExprs": false,
+                        "sqlExprObjForGroup": [
+                            {
+                                "dataSourceId": "dataSource_5-1904757c66a-layer-8",
+                                "fieldList": [
+                                    "IncidentTypeCategory"
+                                ],
+                                "logicalOperator": "AND",
+                                "clause": {
+                                    "type": "SINGLE",
+                                    "jimuFieldName": "IncidentTypeCategory",
+                                    "operator": "STRING_OPERATOR_IS",
+                                    "displayType": "NONE",
+                                    "askForValueOptions": null,
+                                    "displayLabel": null,
+                                    "valueOptions": {
+                                        "isValid": true,
+                                        "sourceType": "UNIQUE",
+                                        "inputEditor": "SIMPLE_SELECT",
+                                        "value": [
+                                            {
+                                                "value": "RX",
+                                                "label": "RX"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19046dc03c1-layer-6",
+                                "fieldList": [
+                                    "IncidentTypeCategory"
+                                ],
+                                "logicalOperator": "AND"
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19046dc0f3a-layer-7",
+                                "fieldList": [
+                                    "IncidentTypeCategory"
+                                ],
+                                "logicalOperator": "AND"
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19046dbfcba-layer-5",
+                                "fieldList": [
+                                    "attr_IncidentTypeCategory"
+                                ],
+                                "logicalOperator": "AND"
+                            },
+                            {
+                                "dataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                                "fieldList": [
+                                    "TypeCatgry"
+                                ],
+                                "logicalOperator": "AND"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "id": "widget_29",
+            "useDataSources": [
+                {
+                    "dataSourceId": "dataSource_5-19046dc03c1-layer-6",
+                    "mainDataSourceId": "dataSource_5-19046dc03c1-layer-6",
+                    "rootDataSourceId": "dataSource_5",
+                    "fields": [
+                        "IncidentTypeCategory"
+                    ]
+                },
+                {
+                    "dataSourceId": "dataSource_5-1904757c66a-layer-8",
+                    "mainDataSourceId": "dataSource_5-1904757c66a-layer-8",
+                    "rootDataSourceId": "dataSource_5",
+                    "fields": [
+                        "IncidentTypeCategory"
+                    ]
+                },
+                {
+                    "dataSourceId": "dataSource_5-19046dc0f3a-layer-7",
+                    "mainDataSourceId": "dataSource_5-19046dc0f3a-layer-7",
+                    "rootDataSourceId": "dataSource_5",
+                    "fields": [
+                        "IncidentTypeCategory"
+                    ]
+                },
+                {
+                    "dataSourceId": "dataSource_5-19046dbfcba-layer-5",
+                    "mainDataSourceId": "dataSource_5-19046dbfcba-layer-5",
+                    "rootDataSourceId": "dataSource_5",
+                    "fields": [
+                        "attr_IncidentTypeCategory"
+                    ]
+                },
+                {
+                    "dataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                    "mainDataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                    "rootDataSourceId": "dataSource_5",
+                    "fields": [
+                        "TypeCatgry"
+                    ]
+                }
+            ],
+            "style": {
+                "borderRadius": null,
+                "border": {
+                    "color": null,
+                    "type": "solid",
+                    "width": "2px"
+                }
+            }
+        }
+    },
+    "widgetsManifest": {},
+    "views": {},
+    "sections": {},
+    "dialogs": {},
+    "dataSources": {
+        "dataSource_5": {
+            "id": "dataSource_5",
+            "type": "WEB_MAP",
+            "sourceLabel": "FiresPresentationMap",
+            "itemId": "e73107fc728640b18ac868abe6ff9dbb",
+            "portalUrl": "https://essorg.maps.arcgis.com"
+        },
+        "widget_2_ouput": {
+            "id": "widget_2_ouput",
+            "type": "FEATURE_LAYER",
+            "label": "Perimeter Pie Chart statistics",
+            "originDataSources": [
+                {
+                    "dataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                    "mainDataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                    "rootDataSourceId": "dataSource_5"
+                }
+            ],
+            "isOutputFromWidget": true,
+            "isDataInDataSourceInstance": true,
+            "schema": {
+                "idField": "__outputid__",
+                "label": "Perimeter Pie Chart statistics",
+                "fields": {
+                    "__outputid__": {
+                        "jimuName": "__outputid__",
+                        "alias": "OBJECTID",
+                        "type": "NUMBER",
+                        "name": "__outputid__"
+                    },
+                    "name": {
+                        "jimuName": "name",
+                        "type": "STRING",
+                        "esriType": "esriFieldTypeString",
+                        "name": "name",
+                        "alias": "Name",
+                        "format": null,
+                        "originFields": [
+                            "Woody_Wet",
+                            "Shrb_Scrb",
+                            "Mixed_Frst",
+                            "Herbaceous",
+                            "Hay_Pastre",
+                            "Evergreen",
+                            "Dev_Open",
+                            "Emerge_Wet",
+                            "Dev_Medium",
+                            "Dev_Low",
+                            "Dev_High",
+                            "Deciduous",
+                            "Crops",
+                            "Barren"
+                        ]
+                    },
+                    "value": {
+                        "jimuName": "value",
+                        "type": "NUMBER",
+                        "esriType": "esriFieldTypeDouble",
+                        "name": "value",
+                        "alias": "Value",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 3
+                        },
+                        "originFields": [
+                            "Woody_Wet",
+                            "Shrb_Scrb",
+                            "Mixed_Frst",
+                            "Herbaceous",
+                            "Hay_Pastre",
+                            "Evergreen",
+                            "Dev_Open",
+                            "Emerge_Wet",
+                            "Dev_Medium",
+                            "Dev_Low",
+                            "Dev_High",
+                            "Deciduous",
+                            "Crops",
+                            "Barren"
+                        ]
+                    }
+                }
+            }
+        },
+        "widget_24_ouput": {
+            "id": "widget_24_ouput",
+            "type": "FEATURE_LAYER",
+            "label": "All NLCD Pie Chart statistics",
+            "originDataSources": [
+                {
+                    "dataSourceId": "dataSource_5-1904896bf4d-layer-10",
+                    "mainDataSourceId": "dataSource_5-1904896bf4d-layer-10",
+                    "rootDataSourceId": "dataSource_5"
+                }
+            ],
+            "isOutputFromWidget": true,
+            "isDataInDataSourceInstance": true,
+            "schema": {
+                "idField": "__outputid__",
+                "label": "All NLCD Pie Chart statistics",
+                "fields": {
+                    "__outputid__": {
+                        "jimuName": "__outputid__",
+                        "alias": "OBJECTID",
+                        "type": "NUMBER",
+                        "name": "__outputid__"
+                    },
+                    "name": {
+                        "jimuName": "name",
+                        "type": "STRING",
+                        "esriType": "esriFieldTypeString",
+                        "name": "name",
+                        "alias": "Name",
+                        "format": null,
+                        "originFields": [
+                            "Barren",
+                            "Crops",
+                            "Deciduous",
+                            "Dev_Low",
+                            "Dev_High",
+                            "Dev_Open",
+                            "Dev_Medium",
+                            "Emerge_Wet",
+                            "Evergreen",
+                            "Hay_Pastre",
+                            "Herbaceous",
+                            "Mixed_Frst",
+                            "Woody_Wet",
+                            "Shrb_Scrb"
+                        ]
+                    },
+                    "value": {
+                        "jimuName": "value",
+                        "type": "NUMBER",
+                        "esriType": "esriFieldTypeDouble",
+                        "name": "value",
+                        "alias": "Value",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 3
+                        },
+                        "originFields": [
+                            "Barren",
+                            "Crops",
+                            "Deciduous",
+                            "Dev_Low",
+                            "Dev_High",
+                            "Dev_Open",
+                            "Dev_Medium",
+                            "Emerge_Wet",
+                            "Evergreen",
+                            "Hay_Pastre",
+                            "Herbaceous",
+                            "Mixed_Frst",
+                            "Woody_Wet",
+                            "Shrb_Scrb"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "messageConfigs": {
+        "messageConfig_1": {
+            "id": "messageConfig_1",
+            "widgetId": "widget_2",
+            "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+            "actions": [
+                {
+                    "actionId": "widget_1-filter-1718984332914",
+                    "widgetId": "widget_1",
+                    "messageWidgetId": "widget_2",
+                    "actionName": "filter",
+                    "description": null,
+                    "config": {
+                        "messageUseDataSource": {
+                            "dataSourceId": "widget_2_ouput",
+                            "mainDataSourceId": "widget_2_ouput",
+                            "rootDataSourceId": null
+                        },
+                        "actionUseDataSource": null,
+                        "sqlExprObj": null,
+                        "enabledDataRelationShip": true
+                    },
+                    "version": "1.14.0",
+                    "useDataSources": [
+                        {
+                            "dataSourceId": "widget_2_ouput",
+                            "mainDataSourceId": "widget_2_ouput",
+                            "rootDataSourceId": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "messageConfig_2": {
+            "id": "messageConfig_2",
+            "widgetId": "widget_1",
+            "messageType": "EXTENT_CHANGE",
+            "actions": [
+                {
+                    "actionId": "filter-data-record-action-1718984457713",
+                    "messageWidgetId": "widget_1",
+                    "actionName": "filter data record action",
+                    "description": null,
+                    "config": {
+                        "messageUseDataSource": null,
+                        "actionUseDataSource": {
+                            "dataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                            "mainDataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                            "rootDataSourceId": "dataSource_5"
+                        },
+                        "sqlExprObj": null,
+                        "enabledDataRelationShip": true,
+                        "enableQueryWithCurrentExtent": true
+                    },
+                    "version": "1.14.0",
+                    "useDataSources": [
+                        {
+                            "dataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                            "mainDataSourceId": "dataSource_5-19037fafbfe-layer-2",
+                            "rootDataSourceId": "dataSource_5",
+                            "fields": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "originExbVersion": "1.14.0",
+    "pageStructure": [
+        {
+            "page_1": []
+        }
+    ],
+    "timestamp": 1719243554204,
+    "historyLabels": {
+        "pages": {}
+    },
+    "attributes": {
+        "portalUrl": "https://essorg.maps.arcgis.com"
+    },
+    "sharedThemeVariables": {
+        "header": {},
+        "body": {},
+        "button": {},
+        "logo": {
+            "small": ""
+        }
+    },
+    "controllerPanels": {},
+    "customTheme": {
+        "colors": {
+            "primary": "#80653e",
+            "success": "#58bc1d",
+            "info": "#7fccef"
+        }
+    }
+}

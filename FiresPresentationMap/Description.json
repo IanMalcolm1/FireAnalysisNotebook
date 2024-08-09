@@ -1,0 +1,72 @@
+{
+    "id": "e73107fc728640b18ac868abe6ff9dbb",
+    "owner": "IanM_essorg",
+    "created": 1718926141000,
+    "isOrgItem": true,
+    "modified": 1719206729000,
+    "guid": null,
+    "name": null,
+    "title": "FiresPresentationMap",
+    "type": "Web Map",
+    "typeKeywords": [
+        "ArcGIS API for JavaScript",
+        "ArcGIS Online",
+        "Collector",
+        "Data Editing",
+        "Explorer Web Map",
+        "Map",
+        "Online Map",
+        "Web Map"
+    ],
+    "description": "",
+    "tags": [
+        ""
+    ],
+    "snippet": "",
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "documentation": null,
+    "extent": [
+        [
+            -117.97211681068791,
+            33.4850186690861
+        ],
+        [
+            -116.33103404701542,
+            34.52891895874985
+        ]
+    ],
+    "categories": [],
+    "spatialReference": "",
+    "accessInformation": "",
+    "classification": null,
+    "licenseInfo": "",
+    "culture": "en-us",
+    "properties": null,
+    "advancedSettings": null,
+    "url": "",
+    "proxyFilter": null,
+    "access": "private",
+    "size": 52221,
+    "subInfo": 0,
+    "appCategories": [],
+    "industries": [],
+    "languages": [],
+    "largeThumbnail": null,
+    "banner": null,
+    "screenshots": [],
+    "listed": false,
+    "ownerFolder": "e68ca76370f24f8891fc2222ca3bfbad",
+    "protected": false,
+    "commentsEnabled": true,
+    "numComments": 0,
+    "numRatings": 0,
+    "avgRating": 0,
+    "numViews": 120,
+    "itemControl": "admin",
+    "scoreCompleteness": 33,
+    "groupDesignations": null,
+    "apiToken1ExpirationDate": -1,
+    "apiToken2ExpirationDate": -1,
+    "contentOrigin": "self",
+    "lastViewed": 1722351600000
+}

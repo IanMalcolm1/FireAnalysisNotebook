@@ -1,0 +1,1 @@
+This notebook uses data from the National Interagency Fire Agency and NLCD data to perform analysis on the types of land burned by wildfires in an area vaguely centered on Redlands.

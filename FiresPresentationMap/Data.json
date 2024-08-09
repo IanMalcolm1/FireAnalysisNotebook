@@ -1,0 +1,3161 @@
+{
+    "operationalLayers": [
+        {
+            "id": "1903b599411-layer-3",
+            "title": "Land Coverage Redlands Area",
+            "url": "https://tiledimageservices9.arcgis.com/LMjydzYxR6YFiqk8/arcgis/rest/services/Full_NLCD_RedlandsArea/ImageServer",
+            "visibility": false,
+            "interpolation": "RSP_NearestNeighbor",
+            "layerDefinition": {
+                "drawingInfo": {
+                    "renderer": {
+                        "authoringInfo": {},
+                        "type": "uniqueValue",
+                        "field1": "NLCD_Land_",
+                        "uniqueValueGroups": [
+                            {
+                                "classes": [
+                                    {
+                                        "label": "Open Water",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                70,
+                                                107,
+                                                159,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Open Water"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Developed, Open Space",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                222,
+                                                197,
+                                                197,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Developed, Open Space"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Developed, Low Intensity",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                217,
+                                                146,
+                                                130,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Developed, Low Intensity"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Developed, Medium Intensity",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                235,
+                                                0,
+                                                0,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Developed, Medium Intensity"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Developed, High Intensity",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                171,
+                                                0,
+                                                0,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Developed, High Intensity"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Barren Land",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                179,
+                                                172,
+                                                159,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Barren Land"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Deciduous Forest",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                104,
+                                                171,
+                                                95,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Deciduous Forest"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Evergreen Forest",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                28,
+                                                95,
+                                                44,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Evergreen Forest"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Mixed Forest",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                181,
+                                                197,
+                                                143,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Mixed Forest"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Shrub/Scrub",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                204,
+                                                184,
+                                                121,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Shrub/Scrub"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Herbaceous",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                223,
+                                                223,
+                                                194,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Herbaceous"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Hay/Pasture",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                220,
+                                                217,
+                                                57,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Hay/Pasture"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Cultivated Crops",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                171,
+                                                108,
+                                                40,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Cultivated Crops"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Woody Wetlands",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                184,
+                                                217,
+                                                235,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Woody Wetlands"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "label": "Emergent Herbaceous Wetlands",
+                                        "symbol": {
+                                            "type": "esriSFS",
+                                            "color": [
+                                                108,
+                                                159,
+                                                184,
+                                                255
+                                            ],
+                                            "style": "esriSFSSolid"
+                                        },
+                                        "values": [
+                                            [
+                                                "Emergent Herbaceous Wetlands"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "uniqueValueInfos": [
+                            {
+                                "label": "Open Water",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        70,
+                                        107,
+                                        159,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Open Water"
+                            },
+                            {
+                                "label": "Developed, Open Space",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        222,
+                                        197,
+                                        197,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Developed, Open Space"
+                            },
+                            {
+                                "label": "Developed, Low Intensity",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        217,
+                                        146,
+                                        130,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Developed, Low Intensity"
+                            },
+                            {
+                                "label": "Developed, Medium Intensity",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        235,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Developed, Medium Intensity"
+                            },
+                            {
+                                "label": "Developed, High Intensity",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        171,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Developed, High Intensity"
+                            },
+                            {
+                                "label": "Barren Land",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        179,
+                                        172,
+                                        159,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Barren Land"
+                            },
+                            {
+                                "label": "Deciduous Forest",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        104,
+                                        171,
+                                        95,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Deciduous Forest"
+                            },
+                            {
+                                "label": "Evergreen Forest",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        28,
+                                        95,
+                                        44,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Evergreen Forest"
+                            },
+                            {
+                                "label": "Mixed Forest",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        181,
+                                        197,
+                                        143,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Mixed Forest"
+                            },
+                            {
+                                "label": "Shrub/Scrub",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        204,
+                                        184,
+                                        121,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Shrub/Scrub"
+                            },
+                            {
+                                "label": "Herbaceous",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        223,
+                                        223,
+                                        194,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Herbaceous"
+                            },
+                            {
+                                "label": "Hay/Pasture",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        220,
+                                        217,
+                                        57,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Hay/Pasture"
+                            },
+                            {
+                                "label": "Cultivated Crops",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        171,
+                                        108,
+                                        40,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Cultivated Crops"
+                            },
+                            {
+                                "label": "Woody Wetlands",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        184,
+                                        217,
+                                        235,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Woody Wetlands"
+                            },
+                            {
+                                "label": "Emergent Herbaceous Wetlands",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        108,
+                                        159,
+                                        184,
+                                        255
+                                    ],
+                                    "style": "esriSFSSolid"
+                                },
+                                "value": "Emergent Herbaceous Wetlands"
+                            }
+                        ]
+                    }
+                }
+            },
+            "itemId": "d8a225dc1e824717860add9c13ca1d2c",
+            "layerType": "ArcGISTiledImageServiceLayer",
+            "popupInfo": {
+                "popupElements": [
+                    {
+                        "type": "fields",
+                        "description": "",
+                        "fieldInfos": [
+                            {
+                                "fieldName": "Raster.NLCD_Land_",
+                                "isEditable": true,
+                                "label": "NLCD Land Type",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "Raster.ServicePixelValue",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 0
+                                },
+                                "isEditable": false,
+                                "label": "Value",
+                                "visible": true
+                            }
+                        ],
+                        "title": ""
+                    }
+                ],
+                "fieldInfos": [
+                    {
+                        "fieldName": "Raster.Blue",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Blue",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Raster.Count",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Count",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Raster.Green",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Green",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Raster.NLCD_Land_",
+                        "isEditable": true,
+                        "label": "NLCD Land Type",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Raster.Opacity",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Opacity",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Raster.ServicePixelValue",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": false,
+                        "label": "Value",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Raster.ServicePixelValue.Raw",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": false,
+                        "label": "Raw Pixel Value",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Raster.Red",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Red",
+                        "visible": false
+                    }
+                ],
+                "title": "NLCD 2021"
+            }
+        },
+        {
+            "id": "1904757c66a-layer-8",
+            "title": "Wildfire Locations Since Jan 1st - Heat Map",
+            "url": "https://services9.arcgis.com/LMjydzYxR6YFiqk8/arcgis/rest/services/FireLocationsToDate/FeatureServer/0",
+            "visibility": true,
+            "itemId": "8d6bc18cd1b64f0d85007c28fc6bde45",
+            "layerType": "ArcGISFeatureLayer",
+            "popupInfo": {
+                "popupElements": [
+                    {
+                        "type": "fields"
+                    },
+                    {
+                        "type": "attachments",
+                        "displayType": "auto"
+                    }
+                ],
+                "showAttachments": true,
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "isEditable": false,
+                        "label": "OBJECTID",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "EstimatedFinalCost",
+                        "isEditable": true,
+                        "label": "EstimatedFinalCost",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FireCode",
+                        "isEditable": true,
+                        "label": "FireCode",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FireDiscoveryDateTime",
+                        "isEditable": true,
+                        "label": "FireDiscoveryDateTime",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FireMgmtComplexity",
+                        "isEditable": true,
+                        "label": "FireMgmtComplexity",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FireOutDateTime",
+                        "isEditable": true,
+                        "label": "FireOutDateTime",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "IncidentName",
+                        "isEditable": true,
+                        "label": "IncidentName",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "IncidentShortDescription",
+                        "isEditable": true,
+                        "label": "IncidentShortDescription",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "IncidentTypeCategory",
+                        "isEditable": true,
+                        "label": "IncidentTypeCategory",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "IncidentTypeKind",
+                        "isEditable": true,
+                        "label": "IncidentTypeKind",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "InitialLatitude",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "InitialLatitude",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "InitialLongitude",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "InitialLongitude",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "InitialResponseDateTime",
+                        "isEditable": true,
+                        "label": "InitialResponseDateTime",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "PercentContained",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "PercentContained",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOCity",
+                        "isEditable": true,
+                        "label": "POOCity",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOCounty",
+                        "isEditable": true,
+                        "label": "POOCounty",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOFips",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "POOFips",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOState",
+                        "isEditable": true,
+                        "label": "POOState",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "PredominantFuelGroup",
+                        "isEditable": true,
+                        "label": "PredominantFuelGroup",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "PredominantFuelModel",
+                        "isEditable": true,
+                        "label": "PredominantFuelModel",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "PrimaryFuelModel",
+                        "isEditable": true,
+                        "label": "PrimaryFuelModel",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "SecondaryFuelModel",
+                        "isEditable": true,
+                        "label": "SecondaryFuelModel",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "TotalIncidentPersonnel",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "TotalIncidentPersonnel",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "UniqueFireIdentifier",
+                        "isEditable": true,
+                        "label": "UniqueFireIdentifier",
+                        "visible": true
+                    }
+                ],
+                "title": "FireLocationsToDate: {IncidentName}"
+            },
+            "layerDefinition": {
+                "drawingInfo": {
+                    "renderer": {
+                        "authoringInfo": {
+                            "fadeRatio": 0.2
+                        },
+                        "type": "heatmap",
+                        "blurRadius": 5.555555555555556,
+                        "colorStops": [
+                            {
+                                "color": [
+                                    133,
+                                    193,
+                                    200,
+                                    0
+                                ],
+                                "ratio": 0
+                            },
+                            {
+                                "color": [
+                                    133,
+                                    193,
+                                    200,
+                                    0
+                                ],
+                                "ratio": 0.01
+                            },
+                            {
+                                "color": [
+                                    133,
+                                    193,
+                                    200,
+                                    3
+                                ],
+                                "ratio": 0.01
+                            },
+                            {
+                                "color": [
+                                    133,
+                                    193,
+                                    200,
+                                    3
+                                ],
+                                "ratio": 0.01
+                            },
+                            {
+                                "color": [
+                                    144,
+                                    161,
+                                    190,
+                                    199
+                                ],
+                                "ratio": 0.0925
+                            },
+                            {
+                                "color": [
+                                    156,
+                                    129,
+                                    132,
+                                    255
+                                ],
+                                "ratio": 0.17500000000000002
+                            },
+                            {
+                                "color": [
+                                    167,
+                                    97,
+                                    170,
+                                    255
+                                ],
+                                "ratio": 0.2575
+                            },
+                            {
+                                "color": [
+                                    175,
+                                    73,
+                                    128,
+                                    255
+                                ],
+                                "ratio": 0.34
+                            },
+                            {
+                                "color": [
+                                    184,
+                                    48,
+                                    85,
+                                    255
+                                ],
+                                "ratio": 0.42250000000000004
+                            },
+                            {
+                                "color": [
+                                    192,
+                                    24,
+                                    42,
+                                    255
+                                ],
+                                "ratio": 0.505
+                            },
+                            {
+                                "color": [
+                                    200,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "ratio": 0.5875
+                            },
+                            {
+                                "color": [
+                                    211,
+                                    51,
+                                    0,
+                                    255
+                                ],
+                                "ratio": 0.67
+                            },
+                            {
+                                "color": [
+                                    222,
+                                    102,
+                                    0,
+                                    255
+                                ],
+                                "ratio": 0.7525000000000001
+                            },
+                            {
+                                "color": [
+                                    233,
+                                    153,
+                                    0,
+                                    255
+                                ],
+                                "ratio": 0.8350000000000001
+                            },
+                            {
+                                "color": [
+                                    244,
+                                    204,
+                                    0,
+                                    255
+                                ],
+                                "ratio": 0.9175000000000001
+                            },
+                            {
+                                "color": [
+                                    255,
+                                    255,
+                                    0,
+                                    255
+                                ],
+                                "ratio": 1
+                            }
+                        ],
+                        "maxDensity": 0.05127456047024,
+                        "maxPixelIntensity": 11.722578982679476,
+                        "minDensity": 0,
+                        "minPixelIntensity": 0,
+                        "radius": 10
+                    }
+                }
+            }
+        },
+        {
+            "id": "19037fafbfe-layer-2",
+            "title": "Wildfire Perimeters Since Jan 1st",
+            "url": "https://services9.arcgis.com/LMjydzYxR6YFiqk8/arcgis/rest/services/ad5297/FeatureServer/0",
+            "itemId": "f54794bc43174da3bc187895c6d38740",
+            "layerType": "ArcGISFeatureLayer",
+            "layerDefinition": {
+                "featureReduction": null,
+                "drawingInfo": {
+                    "labelingInfo": [
+                        {
+                            "labelExpression": "[Name]",
+                            "labelExpressionInfo": {
+                                "expression": "$feature[\"Name\"]"
+                            },
+                            "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+                            "maxScale": 0,
+                            "minScale": 3587453.870819,
+                            "repeatLabel": true,
+                            "symbol": {
+                                "type": "esriTS",
+                                "color": [
+                                    31,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "font": {
+                                    "family": "Arial",
+                                    "size": 9,
+                                    "style": "italic"
+                                },
+                                "horizontalAlignment": "center",
+                                "kerning": true,
+                                "haloColor": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "haloSize": 0.75,
+                                "rotated": false,
+                                "text": "",
+                                "verticalAlignment": "baseline",
+                                "xoffset": 0,
+                                "yoffset": 0,
+                                "angle": 0
+                            }
+                        }
+                    ],
+                    "renderer": {
+                        "type": "simple",
+                        "symbol": {
+                            "type": "esriSFS",
+                            "color": [
+                                176,
+                                38,
+                                0,
+                                191
+                            ],
+                            "outline": {
+                                "type": "esriSLS",
+                                "color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "width": 0.75,
+                                "style": "esriSLSSolid"
+                            },
+                            "style": "esriSFSSolid"
+                        }
+                    }
+                }
+            },
+            "showLabels": true,
+            "popupInfo": {
+                "popupElements": [
+                    {
+                        "type": "text",
+                        "text": "<p><strong>{Name}</strong> ({FireCode})</p><p>{ShortDesc}</p>"
+                    },
+                    {
+                        "type": "media",
+                        "description": "Based on NLCD 2021 data",
+                        "mediaInfos": [
+                            {
+                                "altText": "",
+                                "caption": "",
+                                "title": "",
+                                "type": "piechart",
+                                "value": {
+                                    "colors": [
+                                        [
+                                            200,
+                                            230,
+                                            248,
+                                            255
+                                        ],
+                                        [
+                                            220,
+                                            202,
+                                            143,
+                                            255
+                                        ],
+                                        [
+                                            212,
+                                            231,
+                                            176,
+                                            255
+                                        ],
+                                        [
+                                            253,
+                                            233,
+                                            170,
+                                            255
+                                        ],
+                                        [
+                                            251,
+                                            246,
+                                            93,
+                                            255
+                                        ],
+                                        [
+                                            56,
+                                            129,
+                                            78,
+                                            255
+                                        ],
+                                        [
+                                            100,
+                                            179,
+                                            213,
+                                            255
+                                        ],
+                                        [
+                                            232,
+                                            209,
+                                            209,
+                                            255
+                                        ],
+                                        [
+                                            255,
+                                            0,
+                                            0,
+                                            255
+                                        ],
+                                        [
+                                            226,
+                                            158,
+                                            140,
+                                            255
+                                        ],
+                                        [
+                                            181,
+                                            0,
+                                            0,
+                                            255
+                                        ],
+                                        [
+                                            133,
+                                            199,
+                                            126,
+                                            255
+                                        ],
+                                        [
+                                            202,
+                                            145,
+                                            70,
+                                            255
+                                        ],
+                                        [
+                                            210,
+                                            205,
+                                            192,
+                                            255
+                                        ]
+                                    ],
+                                    "fields": [
+                                        "Woody_Wet",
+                                        "Shrb_Scrb",
+                                        "Mixed_Frst",
+                                        "Herbaceous",
+                                        "Hay_Pastre",
+                                        "Evergreen",
+                                        "Emerge_Wet",
+                                        "Dev_Open",
+                                        "Dev_Medium",
+                                        "Dev_Low",
+                                        "Dev_High",
+                                        "Deciduous",
+                                        "Crops",
+                                        "Barren"
+                                    ]
+                                }
+                            }
+                        ],
+                        "title": "Land Types Burned"
+                    },
+                    {
+                        "type": "fields",
+                        "description": "",
+                        "fieldInfos": [
+                            {
+                                "fieldName": "FireCode",
+                                "isEditable": true,
+                                "label": "Fire Code",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "DiscovDate",
+                                "format": {
+                                    "dateFormat": "shortDateShortTime",
+                                    "digitSeparator": false
+                                },
+                                "isEditable": true,
+                                "label": "Date of Discovery",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "FireOutDt",
+                                "format": {
+                                    "dateFormat": "shortDateShortTime",
+                                    "digitSeparator": false
+                                },
+                                "isEditable": true,
+                                "label": "Fire Out Date",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "InitLat",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 6
+                                },
+                                "isEditable": true,
+                                "label": "Initial Latitude",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "InitLong",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 6
+                                },
+                                "isEditable": true,
+                                "label": "Initial Longitude",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "MgmtCmpxty",
+                                "isEditable": true,
+                                "label": "Management Complexity",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "PcntContnd",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 2
+                                },
+                                "isEditable": true,
+                                "label": "Percent Controlled",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "POOCity",
+                                "isEditable": true,
+                                "label": "POO City",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "POOCounty",
+                                "isEditable": true,
+                                "label": "POO County",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "POOFips",
+                                "isEditable": true,
+                                "label": "POO Fips",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "PredFlGrp",
+                                "isEditable": true,
+                                "label": "Predominant Fuel Group",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "PredFlModl",
+                                "isEditable": true,
+                                "label": "Predominant Fuel Model",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "PrimFlModl",
+                                "isEditable": true,
+                                "label": "Primary Fuel Model",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "SecdFlModl",
+                                "isEditable": true,
+                                "label": "Secondary Fuel Model",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "TotlPersnl",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 0
+                                },
+                                "isEditable": true,
+                                "label": "Total Personnel Mobilized ",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "TypeCatgry",
+                                "isEditable": true,
+                                "label": "Type Category",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "TypeKind",
+                                "isEditable": true,
+                                "label": "Type Kind",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "UniqueId",
+                                "isEditable": true,
+                                "label": "Unique Fire Id",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "Shape__Area",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 2
+                                },
+                                "isEditable": false,
+                                "label": "Shape Area",
+                                "visible": true
+                            }
+                        ],
+                        "title": ""
+                    }
+                ],
+                "description": "<p><strong>{Name}</strong> ({FireCode})</p><p>{ShortDesc}</p>",
+                "mediaInfos": [
+                    {
+                        "altText": "",
+                        "caption": "",
+                        "title": "",
+                        "type": "piechart",
+                        "value": {
+                            "colors": [
+                                [
+                                    200,
+                                    230,
+                                    248,
+                                    255
+                                ],
+                                [
+                                    220,
+                                    202,
+                                    143,
+                                    255
+                                ],
+                                [
+                                    212,
+                                    231,
+                                    176,
+                                    255
+                                ],
+                                [
+                                    253,
+                                    233,
+                                    170,
+                                    255
+                                ],
+                                [
+                                    251,
+                                    246,
+                                    93,
+                                    255
+                                ],
+                                [
+                                    56,
+                                    129,
+                                    78,
+                                    255
+                                ],
+                                [
+                                    100,
+                                    179,
+                                    213,
+                                    255
+                                ],
+                                [
+                                    232,
+                                    209,
+                                    209,
+                                    255
+                                ],
+                                [
+                                    255,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                [
+                                    226,
+                                    158,
+                                    140,
+                                    255
+                                ],
+                                [
+                                    181,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                [
+                                    133,
+                                    199,
+                                    126,
+                                    255
+                                ],
+                                [
+                                    202,
+                                    145,
+                                    70,
+                                    255
+                                ],
+                                [
+                                    210,
+                                    205,
+                                    192,
+                                    255
+                                ]
+                            ],
+                            "fields": [
+                                "Woody_Wet",
+                                "Shrb_Scrb",
+                                "Mixed_Frst",
+                                "Herbaceous",
+                                "Hay_Pastre",
+                                "Evergreen",
+                                "Emerge_Wet",
+                                "Dev_Open",
+                                "Dev_Medium",
+                                "Dev_Low",
+                                "Dev_High",
+                                "Deciduous",
+                                "Crops",
+                                "Barren"
+                            ]
+                        }
+                    }
+                ],
+                "fieldInfos": [
+                    {
+                        "fieldName": "FID",
+                        "isEditable": false,
+                        "label": "FID",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Name",
+                        "isEditable": true,
+                        "label": "Name",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Barren",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Barren Land",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Crops",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Cultivated Crops",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Deciduous",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Deciduous Forest",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Dev_High",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Developed, High Intensity",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Dev_Low",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Developed, Low Intensity",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Dev_Medium",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Developed, Medium Intensity",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Dev_Open",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Developed, Open Land",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "DiscovDate",
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "digitSeparator": false
+                        },
+                        "isEditable": true,
+                        "label": "Date of Discovery",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Emerge_Wet",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Emergent Herbaceous Wetlands",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Evergreen",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Evergreen Forest",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "FireCode",
+                        "isEditable": true,
+                        "label": "Fire Code",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FireOutDt",
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "digitSeparator": false
+                        },
+                        "isEditable": true,
+                        "label": "Fire Out Date",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Hay_Pastre",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Pasture/Hay",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Herbaceous",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Herbaceous",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "InitLat",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 6
+                        },
+                        "isEditable": true,
+                        "label": "Initial Latitude",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "InitLong",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 6
+                        },
+                        "isEditable": true,
+                        "label": "Initial Longitude",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "MgmtCmpxty",
+                        "isEditable": true,
+                        "label": "Management Complexity",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Mixed_Frst",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Mixed Forest",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "OBJECTID",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "OBJECTID",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "PcntContnd",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Percent Controlled",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOCity",
+                        "isEditable": true,
+                        "label": "POO City",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOCounty",
+                        "isEditable": true,
+                        "label": "POO County",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOFips",
+                        "isEditable": true,
+                        "label": "POO Fips",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOState",
+                        "isEditable": true,
+                        "label": "POO State",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "PredFlGrp",
+                        "isEditable": true,
+                        "label": "Predominant Fuel Group",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "PredFlModl",
+                        "isEditable": true,
+                        "label": "Predominant Fuel Model",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "PrimFlModl",
+                        "isEditable": true,
+                        "label": "Primary Fuel Model",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "ResponseDt",
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "digitSeparator": false
+                        },
+                        "isEditable": true,
+                        "label": "Response Date",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "SecdFlModl",
+                        "isEditable": true,
+                        "label": "Secondary Fuel Model",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Shape__Area",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": false,
+                        "label": "Shape Area",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Shape__Length",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": false,
+                        "label": "Shape__Length",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "ShortDesc",
+                        "isEditable": true,
+                        "label": "Short Description",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Shrb_Scrb",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Shrub/Scrub",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "TotlPersnl",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Total Personnel Mobilized ",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "TypeCatgry",
+                        "isEditable": true,
+                        "label": "Type Category",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "TypeKind",
+                        "isEditable": true,
+                        "label": "Type Kind",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "UniqueId",
+                        "isEditable": true,
+                        "label": "Unique Fire Id",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Woody_Wet",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Woody Wetlands",
+                        "visible": false
+                    }
+                ],
+                "title": "Fires To Date: {Name}"
+            }
+        },
+        {
+            "id": "19046dc03c1-layer-6",
+            "title": "Wildfire Locations Since Jan 1st",
+            "url": "https://services9.arcgis.com/LMjydzYxR6YFiqk8/arcgis/rest/services/FireLocationsToDate/FeatureServer/0",
+            "visibility": false,
+            "itemId": "8d6bc18cd1b64f0d85007c28fc6bde45",
+            "layerType": "ArcGISFeatureLayer",
+            "showLabels": true,
+            "layerDefinition": {
+                "drawingInfo": {
+                    "labelingInfo": [
+                        {
+                            "labelExpression": "[IncidentName]",
+                            "labelExpressionInfo": {
+                                "expression": "$feature[\"IncidentName\"]"
+                            },
+                            "labelPlacement": "esriServerPointLabelPlacementAboveCenter",
+                            "maxScale": 0,
+                            "minScale": 12092.811466,
+                            "repeatLabel": true,
+                            "symbol": {
+                                "type": "esriTS",
+                                "color": [
+                                    77,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "font": {
+                                    "family": "Arial",
+                                    "size": 9.75
+                                },
+                                "horizontalAlignment": "center",
+                                "kerning": true,
+                                "haloColor": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "haloSize": 1,
+                                "rotated": false,
+                                "text": "",
+                                "verticalAlignment": "baseline",
+                                "xoffset": 0,
+                                "yoffset": 0,
+                                "angle": 0
+                            }
+                        }
+                    ],
+                    "renderer": {
+                        "type": "simple",
+                        "visualVariables": [
+                            {
+                                "type": "sizeInfo",
+                                "valueExpression": "$view.scale",
+                                "stops": [
+                                    {
+                                        "size": 18.75,
+                                        "value": 4513.988705
+                                    },
+                                    {
+                                        "size": 15,
+                                        "value": 36111.909643
+                                    },
+                                    {
+                                        "size": 7.5,
+                                        "value": 288895.277144
+                                    },
+                                    {
+                                        "size": 3.75,
+                                        "value": 2311162.217155
+                                    }
+                                ]
+                            }
+                        ],
+                        "symbol": {
+                            "type": "esriPMS",
+                            "angle": 0,
+                            "xoffset": 0,
+                            "yoffset": 0,
+                            "contentType": "image/png",
+                            "imageData": "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",
+                            "url": "https://static.arcgis.com/images/Symbols/Emergency-Management/Fire-Fighter.png",
+                            "height": 7.5,
+                            "width": 7.5
+                        }
+                    }
+                }
+            },
+            "popupInfo": {
+                "popupElements": [
+                    {
+                        "type": "fields",
+                        "description": "",
+                        "fieldInfos": [
+                            {
+                                "fieldName": "FireCode",
+                                "isEditable": true,
+                                "label": "FireCode",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "FireOutDateTime",
+                                "isEditable": true,
+                                "label": "FireOutDateTime",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "EstimatedFinalCost",
+                                "isEditable": true,
+                                "label": "EstimatedFinalCost",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "FireDiscoveryDateTime",
+                                "isEditable": true,
+                                "label": "FireDiscoveryDateTime",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "FireMgmtComplexity",
+                                "isEditable": true,
+                                "label": "FireMgmtComplexity",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "IncidentName",
+                                "isEditable": true,
+                                "label": "IncidentName",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "IncidentShortDescription",
+                                "isEditable": true,
+                                "label": "IncidentShortDescription",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "IncidentTypeCategory",
+                                "isEditable": true,
+                                "label": "IncidentTypeCategory",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "IncidentTypeKind",
+                                "isEditable": true,
+                                "label": "IncidentTypeKind",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "InitialLatitude",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 0
+                                },
+                                "isEditable": true,
+                                "label": "InitialLatitude",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "InitialLongitude",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 0
+                                },
+                                "isEditable": true,
+                                "label": "InitialLongitude",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "InitialResponseDateTime",
+                                "isEditable": true,
+                                "label": "InitialResponseDateTime",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "PercentContained",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 0
+                                },
+                                "isEditable": true,
+                                "label": "PercentContained",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "POOCity",
+                                "isEditable": true,
+                                "label": "POOCity",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "POOCounty",
+                                "isEditable": true,
+                                "label": "POOCounty",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "POOFips",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 0
+                                },
+                                "isEditable": true,
+                                "label": "POOFips",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "POOState",
+                                "isEditable": true,
+                                "label": "POOState",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "PredominantFuelGroup",
+                                "isEditable": true,
+                                "label": "PredominantFuelGroup",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "PredominantFuelModel",
+                                "isEditable": true,
+                                "label": "PredominantFuelModel",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "PrimaryFuelModel",
+                                "isEditable": true,
+                                "label": "PrimaryFuelModel",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "SecondaryFuelModel",
+                                "isEditable": true,
+                                "label": "SecondaryFuelModel",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "TotalIncidentPersonnel",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 0
+                                },
+                                "isEditable": true,
+                                "label": "TotalIncidentPersonnel",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "UniqueFireIdentifier",
+                                "isEditable": true,
+                                "label": "UniqueFireIdentifier",
+                                "visible": true
+                            }
+                        ],
+                        "title": ""
+                    }
+                ],
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "isEditable": false,
+                        "label": "OBJECTID",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "EstimatedFinalCost",
+                        "isEditable": true,
+                        "label": "EstimatedFinalCost",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FireCode",
+                        "isEditable": true,
+                        "label": "FireCode",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FireDiscoveryDateTime",
+                        "isEditable": true,
+                        "label": "FireDiscoveryDateTime",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FireMgmtComplexity",
+                        "isEditable": true,
+                        "label": "FireMgmtComplexity",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FireOutDateTime",
+                        "isEditable": true,
+                        "label": "FireOutDateTime",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "IncidentName",
+                        "isEditable": true,
+                        "label": "IncidentName",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "IncidentShortDescription",
+                        "isEditable": true,
+                        "label": "IncidentShortDescription",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "IncidentTypeCategory",
+                        "isEditable": true,
+                        "label": "IncidentTypeCategory",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "IncidentTypeKind",
+                        "isEditable": true,
+                        "label": "IncidentTypeKind",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "InitialLatitude",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "InitialLatitude",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "InitialLongitude",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "InitialLongitude",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "InitialResponseDateTime",
+                        "isEditable": true,
+                        "label": "InitialResponseDateTime",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "PercentContained",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "PercentContained",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOCity",
+                        "isEditable": true,
+                        "label": "POOCity",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOCounty",
+                        "isEditable": true,
+                        "label": "POOCounty",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOFips",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "POOFips",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOState",
+                        "isEditable": true,
+                        "label": "POOState",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "PredominantFuelGroup",
+                        "isEditable": true,
+                        "label": "PredominantFuelGroup",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "PredominantFuelModel",
+                        "isEditable": true,
+                        "label": "PredominantFuelModel",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "PrimaryFuelModel",
+                        "isEditable": true,
+                        "label": "PrimaryFuelModel",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "SecondaryFuelModel",
+                        "isEditable": true,
+                        "label": "SecondaryFuelModel",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "TotalIncidentPersonnel",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "TotalIncidentPersonnel",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "UniqueFireIdentifier",
+                        "isEditable": true,
+                        "label": "UniqueFireIdentifier",
+                        "visible": true
+                    }
+                ],
+                "title": "FireLocationsToDate: {IncidentName}"
+            }
+        },
+        {
+            "id": "19046dbfcba-layer-5",
+            "title": "Current Wildfire Perimeters",
+            "url": "https://services9.arcgis.com/LMjydzYxR6YFiqk8/arcgis/rest/services/FirePerimetersCurrent/FeatureServer/0",
+            "visibility": true,
+            "itemId": "068c1796684143f586f5f26371095f57",
+            "layerType": "ArcGISFeatureLayer",
+            "layerDefinition": {
+                "featureReduction": null,
+                "drawingInfo": {
+                    "labelingInfo": [
+                        {
+                            "labelExpression": "[attr_IncidentName]",
+                            "labelExpressionInfo": {
+                                "expression": "$feature[\"attr_IncidentName\"]"
+                            },
+                            "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+                            "repeatLabel": true,
+                            "symbol": {
+                                "type": "esriTS",
+                                "color": [
+                                    3,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "font": {
+                                    "family": "Arial",
+                                    "size": 12,
+                                    "weight": "bold"
+                                },
+                                "horizontalAlignment": "center",
+                                "kerning": true,
+                                "haloColor": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "haloSize": 1,
+                                "rotated": false,
+                                "text": "",
+                                "verticalAlignment": "baseline",
+                                "xoffset": 0,
+                                "yoffset": 0,
+                                "angle": 0
+                            }
+                        }
+                    ],
+                    "renderer": {
+                        "type": "simple",
+                        "symbol": {
+                            "type": "esriSFS",
+                            "color": [
+                                255,
+                                0,
+                                13,
+                                191
+                            ],
+                            "outline": {
+                                "type": "esriSLS",
+                                "color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "width": 0.75,
+                                "style": "esriSLSSolid"
+                            },
+                            "style": "esriSFSSolid"
+                        }
+                    }
+                }
+            },
+            "showLabels": true,
+            "popupInfo": {
+                "popupElements": [
+                    {
+                        "type": "text",
+                        "text": "<p><strong>{attr_IncidentName}</strong> ({attr_FireCode})</p><p>{attr_IncidentShortDescription}&nbsp;</p>"
+                    },
+                    {
+                        "type": "fields",
+                        "description": "",
+                        "fieldInfos": [
+                            {
+                                "fieldName": "attr_FireCode",
+                                "isEditable": true,
+                                "label": "Fire Code",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_PercentContained",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 0
+                                },
+                                "isEditable": true,
+                                "label": "Percent Contained",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_FireDiscoveryDateTime",
+                                "isEditable": true,
+                                "label": "Discovery Date",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_FireMgmtComplexity",
+                                "isEditable": true,
+                                "label": "Management Complexity",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_IncidentTypeCategory",
+                                "isEditable": true,
+                                "label": "Type Category",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_IncidentTypeKind",
+                                "isEditable": true,
+                                "label": "Incident Type",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_InitialResponseDateTime",
+                                "isEditable": true,
+                                "label": "Initial Response Date",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_POOCity",
+                                "isEditable": true,
+                                "label": "POO City",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_POOCounty",
+                                "isEditable": true,
+                                "label": "POO County",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_POOFips",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 0
+                                },
+                                "isEditable": true,
+                                "label": "POO Fips",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_PredominantFuelGroup",
+                                "isEditable": true,
+                                "label": "Predominant Fuel Group",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_PrimaryFuelModel",
+                                "isEditable": true,
+                                "label": "Primary Fuel Model",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_PredominantFuelModel",
+                                "isEditable": true,
+                                "label": "Predominant Fuel Model",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_SecondaryFuelModel",
+                                "isEditable": true,
+                                "label": "Secondary Fuel Model",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_TotalIncidentPersonnel",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 0
+                                },
+                                "isEditable": true,
+                                "label": "Total Incident Personnel",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_UniqueFireIdentifier",
+                                "isEditable": true,
+                                "label": "Unique Fire ID",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_InitialLatitude",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 7
+                                },
+                                "isEditable": true,
+                                "label": "Initial Latitude",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "attr_InitialLongitude",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 8
+                                },
+                                "isEditable": true,
+                                "label": "Initial Longitude",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "Shape__Area",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 2
+                                },
+                                "isEditable": false,
+                                "label": "Shape Area",
+                                "visible": true
+                            }
+                        ],
+                        "title": ""
+                    }
+                ],
+                "description": "<p><strong>{attr_IncidentName}</strong> ({attr_FireCode})</p><p>{attr_IncidentShortDescription}&nbsp;</p>",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "isEditable": false,
+                        "label": "OBJECTID",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "attr_EstimatedFinalCost",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Estimated Final Cost",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "attr_FireCode",
+                        "isEditable": true,
+                        "label": "Fire Code",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_FireDiscoveryDateTime",
+                        "isEditable": true,
+                        "label": "Discovery Date",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_FireMgmtComplexity",
+                        "isEditable": true,
+                        "label": "Management Complexity",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_FireOutDateTime",
+                        "isEditable": true,
+                        "label": "Fire Out Date",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "attr_IncidentName",
+                        "isEditable": true,
+                        "label": "Incident Name",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "attr_IncidentShortDescription",
+                        "isEditable": true,
+                        "label": "Short Description",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "attr_IncidentTypeCategory",
+                        "isEditable": true,
+                        "label": "Type Category",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_IncidentTypeKind",
+                        "isEditable": true,
+                        "label": "Incident Type",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_InitialLatitude",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 7
+                        },
+                        "isEditable": true,
+                        "label": "Initial Latitude",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_InitialLongitude",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 8
+                        },
+                        "isEditable": true,
+                        "label": "Initial Longitude",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_InitialResponseDateTime",
+                        "isEditable": true,
+                        "label": "Initial Response Date",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_PercentContained",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Percent Contained",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_POOCity",
+                        "isEditable": true,
+                        "label": "POO City",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_POOCounty",
+                        "isEditable": true,
+                        "label": "POO County",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_POOFips",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "POO Fips",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_POOState",
+                        "isEditable": true,
+                        "label": "POO State",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "attr_PredominantFuelGroup",
+                        "isEditable": true,
+                        "label": "Predominant Fuel Group",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_PredominantFuelModel",
+                        "isEditable": true,
+                        "label": "Predominant Fuel Model",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_PrimaryFuelModel",
+                        "isEditable": true,
+                        "label": "Primary Fuel Model",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_SecondaryFuelModel",
+                        "isEditable": true,
+                        "label": "Secondary Fuel Model",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_TotalIncidentPersonnel",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Total Incident Personnel",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "attr_UniqueFireIdentifier",
+                        "isEditable": true,
+                        "label": "Unique Fire ID",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Shape__Area",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": false,
+                        "label": "Shape Area",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Shape__Length",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": false,
+                        "label": "Shape__Length",
+                        "visible": false
+                    }
+                ],
+                "title": "Fire Perimeters Current: {attr_IncidentName}"
+            }
+        },
+        {
+            "id": "19046dc0f3a-layer-7",
+            "title": "Current Wildfire Locations",
+            "url": "https://services9.arcgis.com/LMjydzYxR6YFiqk8/arcgis/rest/services/FireLocationsCurrent/FeatureServer/0",
+            "itemId": "50a976420faf4f0ba92ddd3ade7bb739",
+            "layerType": "ArcGISFeatureLayer",
+            "showLabels": true,
+            "layerDefinition": {
+                "drawingInfo": {
+                    "labelingInfo": [
+                        {
+                            "labelExpression": "[IncidentName]",
+                            "labelExpressionInfo": {
+                                "expression": "$feature[\"IncidentName\"]"
+                            },
+                            "labelPlacement": "esriServerPointLabelPlacementAboveCenter",
+                            "maxScale": 0,
+                            "minScale": 9244649,
+                            "repeatLabel": true,
+                            "symbol": {
+                                "type": "esriTS",
+                                "color": [
+                                    77,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "font": {
+                                    "family": "Arial",
+                                    "size": 12,
+                                    "weight": "bold"
+                                },
+                                "horizontalAlignment": "center",
+                                "kerning": true,
+                                "haloColor": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "haloSize": 1,
+                                "rotated": false,
+                                "text": "",
+                                "verticalAlignment": "baseline",
+                                "xoffset": 0,
+                                "yoffset": 0,
+                                "angle": 0
+                            }
+                        }
+                    ],
+                    "renderer": {
+                        "type": "simple",
+                        "visualVariables": [
+                            {
+                                "type": "sizeInfo",
+                                "valueExpression": "$view.scale",
+                                "stops": [
+                                    {
+                                        "size": 23.4375,
+                                        "value": 36111.909643
+                                    },
+                                    {
+                                        "size": 18.75,
+                                        "value": 288895.277144
+                                    },
+                                    {
+                                        "size": 9.375,
+                                        "value": 2311162.217155
+                                    },
+                                    {
+                                        "size": 4.6875,
+                                        "value": 18489297.737236
+                                    }
+                                ]
+                            }
+                        ],
+                        "symbol": {
+                            "type": "esriPMS",
+                            "angle": 0,
+                            "xoffset": 0,
+                            "yoffset": 0,
+                            "contentType": "image/png",
+                            "imageData": "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",
+                            "url": "https://static.arcgis.com/images/Symbols/Emergency-Management/Fire-Fire.png",
+                            "height": 18.75,
+                            "width": 18.75
+                        }
+                    }
+                }
+            },
+            "popupInfo": {
+                "popupElements": [
+                    {
+                        "type": "fields",
+                        "description": "",
+                        "fieldInfos": [
+                            {
+                                "fieldName": "IncidentName",
+                                "isEditable": true,
+                                "label": "Name",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "FireCode",
+                                "isEditable": true,
+                                "label": "Fire Code",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "PercentContained",
+                                "isEditable": true,
+                                "label": "Percent Contained",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "FireDiscoveryDateTime",
+                                "isEditable": true,
+                                "label": "Fire Discovery Date",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "InitialResponseDateTime",
+                                "isEditable": true,
+                                "label": "Initial Response Date",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "POOCity",
+                                "isEditable": true,
+                                "label": "POO City",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "POOCounty",
+                                "isEditable": true,
+                                "label": "POO County",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "POOFips",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 0
+                                },
+                                "isEditable": true,
+                                "label": "POO Fips",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "IncidentTypeKind",
+                                "isEditable": true,
+                                "label": "Type Kind",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "IncidentTypeCategory",
+                                "isEditable": true,
+                                "label": "Type Category",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "UniqueFireIdentifier",
+                                "isEditable": true,
+                                "label": "Unique Fire ID",
+                                "visible": true
+                            }
+                        ],
+                        "title": ""
+                    }
+                ],
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "isEditable": false,
+                        "label": "OBJECTID",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "EstimatedFinalCost",
+                        "isEditable": true,
+                        "label": "EstimatedFinalCost",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "FireCode",
+                        "isEditable": true,
+                        "label": "Fire Code",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FireDiscoveryDateTime",
+                        "isEditable": true,
+                        "label": "Fire Discovery Date",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "FireMgmtComplexity",
+                        "isEditable": true,
+                        "label": "FireMgmtComplexity",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "FireOutDateTime",
+                        "isEditable": true,
+                        "label": "FireOutDateTime",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "IncidentName",
+                        "isEditable": true,
+                        "label": "Name",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "IncidentShortDescription",
+                        "isEditable": true,
+                        "label": "IncidentShortDescription",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "IncidentTypeCategory",
+                        "isEditable": true,
+                        "label": "Type Category",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "IncidentTypeKind",
+                        "isEditable": true,
+                        "label": "Type Kind",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "InitialLatitude",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "InitialLatitude",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "InitialLongitude",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "InitialLongitude",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "InitialResponseDateTime",
+                        "isEditable": true,
+                        "label": "Initial Response Date",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "PercentContained",
+                        "isEditable": true,
+                        "label": "Percent Contained",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOCity",
+                        "isEditable": true,
+                        "label": "POO City",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOCounty",
+                        "isEditable": true,
+                        "label": "POO County",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOFips",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "POO Fips",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "POOState",
+                        "isEditable": true,
+                        "label": "POOState",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "PredominantFuelGroup",
+                        "isEditable": true,
+                        "label": "PredominantFuelGroup",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "PredominantFuelModel",
+                        "isEditable": true,
+                        "label": "PredominantFuelModel",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "PrimaryFuelModel",
+                        "isEditable": true,
+                        "label": "PrimaryFuelModel",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "SecondaryFuelModel",
+                        "isEditable": true,
+                        "label": "SecondaryFuelModel",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "TotalIncidentPersonnel",
+                        "isEditable": true,
+                        "label": "TotalIncidentPersonnel",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "UniqueFireIdentifier",
+                        "isEditable": true,
+                        "label": "Unique Fire ID",
+                        "visible": true
+                    }
+                ],
+                "title": "Fire Locations Current: {IncidentName}"
+            }
+        }
+    ],
+    "tables": [
+        {
+            "id": "1904896bf4d-layer-10",
+            "title": "FullNLCDCountsPerimsAndLocs",
+            "url": "https://services9.arcgis.com/LMjydzYxR6YFiqk8/arcgis/rest/services/import_table_6d6/FeatureServer/0",
+            "itemId": "dc38825d7f1d4179b13cea29fad0b7d9",
+            "popupInfo": {
+                "popupElements": [
+                    {
+                        "type": "fields"
+                    },
+                    {
+                        "type": "attachments",
+                        "displayType": "auto"
+                    }
+                ],
+                "showAttachments": true,
+                "fieldInfos": [
+                    {
+                        "fieldName": "ObjectId",
+                        "isEditable": false,
+                        "label": "ObjectId",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "Barren",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Barren",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Crops",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Crops",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Deciduous",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Deciduous",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Dev_High",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Dev_High",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Dev_Low",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Dev_Low",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Dev_Medium",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Dev_Medium",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Dev_Open",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Dev_Open",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Emerge_Wet",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Emerge_Wet",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Evergreen",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Evergreen",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Hay_Pastre",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Hay_Pastre",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Herbaceous",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Herbaceous",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Mixed_Frst",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Mixed_Frst",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Shrb_Scrb",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Shrb_Scrb",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "Woody_Wet",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Woody_Wet",
+                        "visible": true
+                    }
+                ],
+                "title": "FullNLCDCountsPerimsAndLocs"
+            }
+        }
+    ],
+    "baseMap": {
+        "baseMapLayers": [
+            {
+                "id": "World_Hillshade_3805",
+                "opacity": 1,
+                "title": "World Hillshade",
+                "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer",
+                "visibility": true,
+                "layerType": "ArcGISTiledMapServiceLayer"
+            },
+            {
+                "id": "VectorTile_2333",
+                "opacity": 1,
+                "title": "World Topographic Map",
+                "visibility": true,
+                "layerType": "VectorTileLayer",
+                "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/items/7dc6cea0b1764a1f9af2e679f642f0f5/resources/styles/root.json"
+            }
+        ],
+        "title": "Topographic"
+    },
+    "authoringApp": "ArcGISMapViewer",
+    "authoringAppVersion": "2024.1",
+    "initialState": {
+        "viewpoint": {
+            "targetGeometry": {
+                "spatialReference": {
+                    "latestWkid": 3857,
+                    "wkid": 102100
+                },
+                "xmin": -13132595.971170366,
+                "ymin": 3959860.4594353433,
+                "xmax": -12949911.473568726,
+                "ymax": 4100045.96931041
+            }
+        }
+    },
+    "spatialReference": {
+        "latestWkid": 3857,
+        "wkid": 102100
+    },
+    "timeZone": "system",
+    "version": "2.30"
+}
